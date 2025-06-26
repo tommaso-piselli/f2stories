@@ -1,0 +1,17 @@
+0 : CL
+1 : BA
+2 : TF
+3 : AE
+4 : RN
+5 : TS
+6 : RX
+7 : HO
+8 : PS
+9 : SE
+10 : RF
+11 : YU
+12 : CS
+13 : VI
+14 : CI
+15 : RE
+16 : AS
