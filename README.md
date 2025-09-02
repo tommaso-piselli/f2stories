@@ -47,6 +47,17 @@ The F2Stories framework allows you to:
 
 ### Basic Usage
 
+Requirements: [Gurobi](https://support.gurobi.com/hc/en-us/sections/360010017231-Platforms-and-Installation).
+
+For python, you can install the few requirements and activate the virtual env using the following commands:
+
+```bash
+chmod +x setup.sh
+
+source ./setup.sh
+
+```
+
 The simplest way to run the pipeline is using the wrapper script:
 
 ```bash
