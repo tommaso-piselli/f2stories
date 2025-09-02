@@ -112,12 +112,13 @@ The following optimization strategies are available:
 
 ### Visualization
 
-To view the visualizations, open one of the HTML files in a web browser:
+To view the visualizations, please follow these steps:
 
-- `index.html`: Basic visualization
-- `showcase.html`: Interactive showcase with parameter selection
-- `morph.html`: Visualization with morphing between different optimizations
-- `stats.html`: Statistical visualization
+- First, run a web server in the root folder of the project. You can do so with python. Open a terminal and run:
+```bash
+python3 -m http.server
+```
+- Then, leave the terminal open, and access the webpage by typing in your browser's URL bar `http://127.0.0.1:8000/src/showcase.html`.
 
 ## Data Format
 
