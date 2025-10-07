@@ -120,6 +120,38 @@ python3 -m http.server
 ```
 - Then, leave the terminal open, and access the webpage by typing in your browser's URL bar `http://127.0.0.1:8000/src/showcase.html`.
 
+## Reproducing Paper Results
+To help replicate the figures shown in the paper, below is an explicit example reproducing the Jurassic Park – Crossing Minimization experiment (corresponding to Figure 3 in the paper).
+### Example: Reproducing Figure 3 (Jurassic Park, Crossing Minimization)
+1 - Activate the environment
+```
+chmod +x setup.sh
+source ./setup.sh
+```
+
+2 - Run the full optimization pipeline
+```
+python3 src/run_wrapper.py --subject JurassicPark --experiment cross
+```
+
+3 - Visualize the resulting storyline
+First in the terminal open a http server
+```
+python3 -m http.server
+```
+
+Then open `http://127.0.0.1:8000/src/showcase.html` in a web browser. Here you can select the Dataset and the Coloring to reproduce the graphs from the paper. 
+
+<img width="1680" height="855" alt="image" src="https://github.com/user-attachments/assets/c95c2a12-6500-43cf-a096-8c0176402c80" />
+
+If you want to reproduce other images, you can run:
+
+```
+python3 src/run_wrapper.py --subject <dataset_name> --experiment <experiment_name>
+```
+where <dataset_name> is one from this list: JurassicPark, dblp_anon, lotr, star_wars_cut, animal_farm, ffvii, anna3, jean1, jean2, jean5
+and <experiment_name> is one from the previous presented **Available Experiments**.
+
 ## Data Format
 
 ### Master Files
