@@ -121,8 +121,8 @@ python3 -m http.server
 - Then, leave the terminal open, and access the webpage by typing in your browser's URL bar `http://127.0.0.1:8000/src/showcase.html`.
 
 ## Reproducing Paper Results
-To help replicate the figures shown in the paper, below is an explicit example reproducing the Jurassic Park – Crossing Minimization experiment (corresponding to Figure 3 in the paper).
-### Example: Reproducing Figure 3 (Jurassic Park, Crossing Minimization)
+To help replicate the figures shown in the paper, below is an explicit example reproducing the Jurassic Park – Crossing Minimization experiment (corresponding to Figure 5 in the paper).
+### Example: Reproducing Figure 5 (Jurassic Park, Crossing Minimization)
 1 - Activate the environment
 ```
 chmod +x setup.sh
