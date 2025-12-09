@@ -203,12 +203,14 @@ Where group is typically "red" or "blue".
 
 ## Citation
 
+If you want to cite the paper:
+```
 @article{pisellif2stories,
   title={F2Stories: a Modular Framework for Multi-Objective Optimization of Storylines with a Focus on Fairness},
   author={Piselli, Tommaso and Liotta, Giuseppe and Montecchiani, Fabrizio and Nollenburg, Martin and Di Bartolomeo, Sara},
   journal={IEEE transactions on visualization and computer graphics}
 }
-
+```
 
 ## License
 
