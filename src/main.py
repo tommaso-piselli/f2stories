@@ -125,6 +125,8 @@ def write_ilp_model(filepath, t_activechars, t_interactions, num_chars, lambda1=
     delta_vars = set()
     wiggle_vars = set()
     skewness_vars = set()
+    baseline_vars = set()  
+    
 
     if lambda1 != 0 or lambda2 != 0:
         for i in range(num_chars):
@@ -384,7 +386,6 @@ def write_ilp_model(filepath, t_activechars, t_interactions, num_chars, lambda1=
 
         # ! WIGGLE DETECTION CONSTRAINTS (lambda6)
         if lambda5 != 0 or lambda6 != 0:
-            baseline_vars = set()  # Track baseline variables
             for t in range(len(t_activechars) - 1):
                 chars_t = set(t_activechars[t])
                 chars_t1 = set(t_activechars[t+1])
