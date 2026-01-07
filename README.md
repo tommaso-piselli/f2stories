@@ -1,5 +1,11 @@
-# F2Stories
+# F2Stories 
 This repository contains tools for creating and analyzing storyline visualizations with a focus on optimizing for different metrics like crossings, skewness, and wiggles.
+
+
+### Award
+This project obtained the [TVCG Replicability Stamp](http://www.replicabilitystamp.org#https-github-com-tommaso-piselli-f2stories).
+
+[![](https://www.replicabilitystamp.org/logo/Reproducibility-small.png)](http://www.replicabilitystamp.org#https-github-com-tommaso-piselli-f2stories)
 
 ## Overview
 
